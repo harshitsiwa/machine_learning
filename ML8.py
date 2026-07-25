@@ -45,3 +45,10 @@ plt.xlabel('Position level')
 plt.ylabel('Salary')
 plt.show()
 
+#predicting salary using lin reg
+print(lin_reg.predict([[6.5]]))
+
+#using poly reg
+print(lin_reg2.predict(poly_reg.fit_transform([[6.5]])))
+
+
